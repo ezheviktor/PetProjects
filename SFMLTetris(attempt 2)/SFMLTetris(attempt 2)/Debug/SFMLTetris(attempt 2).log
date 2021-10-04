@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\User\source\repos\Tetris\SFMLTetris(attempt 2)\SFMLTetris(attempt 2)\main.cpp(41,44): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\User\source\repos\Tetris\SFMLTetris(attempt 2)\SFMLTetris(attempt 2)\main.cpp(41,31): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  SFMLTetris(attempt 2).vcxproj -> C:\Users\User\source\repos\Tetris\SFMLTetris(attempt 2)\Debug\SFMLTetris(attempt 2).exe
