@@ -5,7 +5,19 @@ Tetramino::Tetramino() { tetraminoInit(); }
 
 void Tetramino::tetraminoInit()
 {
-	m_color = getRandomNumber(0, 6);
+	int newColor;
+	bool generateColorAgain;
+	do
+	{
+		newColor = getRandomNumber(0, 6);
+		if (newColor == m_color)
+			generateColorAgain = getRandomNumber(0, 1);
+		else
+			generateColorAgain = 0;
+
+	} while (generateColorAgain);
+
+	m_color = newColor;
 	for (int i = 0; i < 4; ++i)
 	{
 		array[i].setPosition((m_types[m_color][i] % 2) + 4, m_types[m_color][i] / 2);
